@@ -1,0 +1,21 @@
+button {
+    display: block;
+    margin-top: 1rem;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.discontinued-message {
+    color: red;
+    font-weight: bold;
+}
+
+.discontinued-message.show {
+    display: block;
+}
+
+.discontinued-message.hide {
+    display: none;
+}
